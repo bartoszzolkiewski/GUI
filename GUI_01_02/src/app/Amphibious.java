@@ -7,6 +7,7 @@ public class Amphibious implements IBoat, IAuto {
         this.isOnGround = isOnGround;
     }
 
+    @Override
     public void move() {
         if (this.isOnGround) {
             System.out.println("Slow brum");
